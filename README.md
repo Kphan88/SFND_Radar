@@ -15,11 +15,11 @@ A for-loop iterates the RDM, doing the following operations:
 - I chose to use 10 training cells and 2 guard cells in both range and doppler dimensions. Offset to the threshold was set to 5dB.
 I chose these hyper parameters based on repeated experimentation.
 
-T_range = 7; % training cells for range
-T_doppler = 7; % training cells for doppler
+  T_range = 7; % training cells for range
+  T_doppler = 7; % training cells for doppler
 
-G_range = 2; % guard cells for range
-G_doppler = 2; % guard cells for doppler
+  G_range = 2; % guard cells for range
+  G_doppler = 2; % guard cells for doppler
 offset = 5;
 
 3. Steps taken to suppress the non-thresholded cells at the edges
